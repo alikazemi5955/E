@@ -1,0 +1,10 @@
+[
+  {
+    "id": "user_admin",
+    "username": "admin",
+    "password": "scrypt$571c70073b1e0f716a05371ae63124b6$47c0bfac563d9485b518bf9a3afddbc056dc997fa2878154a10ddfccc478ea5d24052527f286e53276a50721d41fb2e7948fbdb1931931a4ad721d207bac948f",
+    "fullName": "مدیر ارشد پازل حساب",
+    "role": "مدیر ارشد",
+    "createdAt": "۱۴۰۳/۰۱/۰۱"
+  }
+]

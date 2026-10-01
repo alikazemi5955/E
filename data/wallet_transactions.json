@@ -1,0 +1,14 @@
+[
+  {
+    "id": "tx_1790398277780_zkg7",
+    "userId": "usr-admin-default",
+    "userName": "مدیر سیستم",
+    "userPhone": "09000000001",
+    "amount": 100000,
+    "type": "deposit",
+    "reason": "شارژ اولیه آزمایشی توسط مدیر",
+    "balanceAfter": 100000,
+    "adminUser": "مدیر فروشگاه",
+    "createdAt": "2026-09-26T04:51:17.780Z"
+  }
+]

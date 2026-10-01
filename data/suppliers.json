@@ -1,0 +1,32 @@
+[
+  {
+    "id": "kasra",
+    "name": "کسری پلاس (Kasra Plus)",
+    "enabled": true,
+    "baseUrl": "https://api.kasrapars.ir/api/web/v10/product/index?per-page=100",
+    "connectionType": "api_feed",
+    "lastSyncAt": "2026-10-01T13:25:31.472Z",
+    "lastSuccessAt": "2026-10-01T13:25:31.472Z",
+    "lastError": null,
+    "status": "connected",
+    "matchedCount": 33048,
+    "ambiguousCount": 0,
+    "variantsCount": 0,
+    "inStockColorsCount": 0
+  },
+  {
+    "id": "hamrahtel",
+    "name": "همراه تل (Hamrah Tel)",
+    "enabled": false,
+    "baseUrl": "https://api.hamrahtel.com/feed/products",
+    "connectionType": "api_feed",
+    "lastSyncAt": null,
+    "lastSuccessAt": null,
+    "lastError": "تأمین‌کننده در حال حاضر نیازمند اتصال مجاز و دریافت مجوز دسترسی API است",
+    "status": "unavailable",
+    "matchedCount": 0,
+    "ambiguousCount": 0,
+    "variantsCount": 0,
+    "inStockColorsCount": 0
+  }
+]

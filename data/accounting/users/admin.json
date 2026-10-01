@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "id": "rec_sync",
+      "title": "فاکتور همگام‌سازی",
+      "totalAmount": 1800000,
+      "sponsor": "طرف حساب عمومی"
+    }
+  ],
+  "withdrawals": [],
+  "deposits": [],
+  "sponsorAccounts": [
+    {
+      "id": "sp_sync",
+      "name": "حاج علی کاظمی",
+      "profitSharePercent": 20
+    }
+  ],
+  "sponsorLedger": [
+    {
+      "id": "led_sync",
+      "sponsorId": "sp_sync",
+      "amount": 1800000
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_sync",
+      "invoiceNumber": "INV-2026",
+      "total": 1800000
+    }
+  ],
+  "inventoryItems": [
+    {
+      "id": "item_sync",
+      "name": "پازل حرفه‌ای",
+      "stock": 50
+    }
+  ],
+  "inventoryTransactions": [
+    {
+      "id": "tx_sync",
+      "itemId": "item_sync",
+      "type": "in",
+      "quantity": 50
+    }
+  ],
+  "updatedAt": "2026-09-16T16:45:58.505Z"
+}

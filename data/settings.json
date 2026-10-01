@@ -1,0 +1,139 @@
+{
+  "storeName": "فروشگاه اینترنتی پازل کالا",
+  "storeSlogan": "مرجع تخصصی خرید آنلاین کالای دیجیتال و گجت‌های هوشمند",
+  "storePhone": "۰۲۱-۸۸۸۸۹۹۹۹",
+  "supportPhone": "۰۲۱-۹۱۰۰۸۸۷۷",
+  "supportEmail": "support@puzzlekala.ir",
+  "storeAddress": "تهران، خیابان ولیعصر، بالاتر از میدان ونک، برج نگار، طبقه ۶",
+  "shippingFee": 49000,
+  "freeShippingThreshold": 2000000,
+  "shippingTiers": [
+    {
+      "id": "tier-1",
+      "title": "سفارش‌های کمتر از ۵۰۰ هزار تومان",
+      "minPrice": 0,
+      "maxPrice": 500000,
+      "fee": 49000,
+      "estimatedDelivery": "۲۴ تا ۴۸ ساعت کاری",
+      "description": "ارسال با پست پیشتاز و بسته‌بندی ضدضربه",
+      "isActive": true
+    },
+    {
+      "id": "tier-2",
+      "title": "سفارش‌های ۵۰۰ هزار تا ۲ میلیون تومان",
+      "minPrice": 500000,
+      "maxPrice": 2000000,
+      "fee": 29000,
+      "estimatedDelivery": "۲۴ تا ۴۸ ساعت کاری",
+      "description": "تعرفه ویژه ارسال اقتصادی با تخفیف",
+      "isActive": true
+    },
+    {
+      "id": "tier-3",
+      "title": "سفارش‌های بالای ۲ میلیون تومان (ارسال رایگان)",
+      "minPrice": 2000000,
+      "maxPrice": 0,
+      "fee": 0,
+      "estimatedDelivery": "۲۴ ساعت کاری (اکسپرس)",
+      "description": "تحویل اکسپرس و ۱۰۰٪ رایگان پازل کالا به سراسر کشور",
+      "isActive": true
+    }
+  ],
+  "quickShortcuts": [
+    {
+      "id": "qs-easy-buy",
+      "title": "لیست قیمت موبایل",
+      "subtitle": "لیست قیمت لحظه‌ای زیر هم",
+      "iconName": "Smartphone",
+      "linkType": "page",
+      "linkTarget": "easy-buy",
+      "bgGradient": "from-[#3B5323] to-emerald-700",
+      "iconColor": "text-[#3B5323]",
+      "order": 0,
+      "isActive": true
+    },
+    {
+      "id": "qs-1",
+      "title": "شگفت‌انگیزها",
+      "subtitle": "تخفیف‌های ویژه روز",
+      "iconName": "Flame",
+      "linkType": "filter",
+      "linkTarget": "deals",
+      "badge": "داغ",
+      "badgeColor": "bg-rose-500 text-white",
+      "bgGradient": "from-rose-500 to-red-600",
+      "iconColor": "text-rose-600",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "qs-2",
+      "title": "خرید اقساطی",
+      "subtitle": "بدون ضامن با چک صیادی",
+      "iconName": "CreditCard",
+      "linkType": "page",
+      "linkTarget": "products",
+      "badge": "طرح ویژه",
+      "badgeColor": "bg-purple-600 text-white",
+      "bgGradient": "from-indigo-500 to-purple-600",
+      "iconColor": "text-indigo-600",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "qs-4",
+      "title": "گوشی موبایل",
+      "subtitle": "آیفون، سامسونگ، شیائومی",
+      "iconName": "Smartphone",
+      "linkType": "category",
+      "linkTarget": "mobile",
+      "bgGradient": "from-emerald-500 to-teal-600",
+      "iconColor": "text-emerald-600",
+      "order": 4,
+      "isActive": true
+    },
+    {
+      "id": "qs-5",
+      "title": "لپ‌تاپ و اولترابوک",
+      "subtitle": "مک‌بوک، ایسوس، لنوو",
+      "iconName": "Laptop",
+      "linkType": "category",
+      "linkTarget": "laptop",
+      "bgGradient": "from-blue-500 to-cyan-600",
+      "iconColor": "text-blue-600",
+      "order": 5,
+      "isActive": true
+    },
+    {
+      "id": "qs-6",
+      "title": "هدفون و ایرپاد",
+      "subtitle": "سونی، ایرپاد، جی‌بی‌ال",
+      "iconName": "Headphones",
+      "linkType": "category",
+      "linkTarget": "audio",
+      "bgGradient": "from-violet-500 to-fuchsia-600",
+      "iconColor": "text-violet-600",
+      "order": 6,
+      "isActive": true
+    },
+    {
+      "id": "qs-7",
+      "title": "ساعت هوشمند",
+      "subtitle": "اپل واچ، گلکسی واچ",
+      "iconName": "Watch",
+      "linkType": "category",
+      "linkTarget": "wearables",
+      "bgGradient": "from-pink-500 to-rose-600",
+      "iconColor": "text-pink-600",
+      "order": 7,
+      "isActive": true
+    }
+  ],
+  "vatPercent": 0,
+  "enableSpecialDeals": true,
+  "enableOrderSms": true,
+  "enableCOD": true,
+  "enableCoupons": true,
+  "isStoreActive": true,
+  "bannerNotice": "ارسال اکسپرس و رایگان سفارش‌های بالای ۲ میلیون تومان به سراسر کشور"
+}

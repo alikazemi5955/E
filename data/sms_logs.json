@@ -1,0 +1,11 @@
+[
+  {
+    "id": "sms_1790398282896_05sn",
+    "phone": "09123456789",
+    "message": "سفارش شما در پازل کالا ثبت شد.",
+    "status": "SIMULATED_PENDING_GATEWAY",
+    "statusText": "نیازمند اتصال وب‌سرویس پیامک (API Key)",
+    "gateway": "Simulated_Sandbox",
+    "createdAt": "2026-09-26T04:51:22.896Z"
+  }
+]

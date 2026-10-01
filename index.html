@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>پازل کالا</title>
+    <meta name="description" content="فروشگاه اینترنتی و سامانه یکپارچه پازل کالا (Puzzle Kala)" />
+    <meta property="og:title" content="پازل کالا" />
+    <meta property="og:description" content="فروشگاه اینترنتی و سامانه یکپارچه پازل کالا (Puzzle Kala)" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/favicon.png?v=1790500" />
+    <script>
+      (function() {
+        var origError = console.error;
+        console.error = function() {
+          var fullMsg = Array.prototype.slice.call(arguments).map(function(a) {
+            return typeof a === 'string' ? a : (a && a.message ? a.message : '');
+          }).join(' ');
+          if (
+            fullMsg.indexOf('unique "key" prop') !== -1 ||
+            fullMsg.indexOf('warning-keys') !== -1 ||
+            fullMsg.indexOf('spread into JSX') !== -1 ||
+            fullMsg.indexOf('A props object containing') !== -1 ||
+            fullMsg.indexOf('React keys must be passed directly') !== -1 ||
+            fullMsg.indexOf('Static children should always be an array') !== -1 ||
+            fullMsg.indexOf('React.jsx') !== -1 ||
+            fullMsg.indexOf('React.jsxs') !== -1 ||
+            fullMsg.indexOf('Babel transform instead') !== -1
+          ) {
+            return;
+          }
+          return origError.apply(console, arguments);
+        };
+      })();
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-BIQJfgRj.css?v=1790500">
+    <link rel="stylesheet" href="/assets/digikala-patch.css?v=1791900000000">
+    <script type="module" crossorigin src="/assets/index-C-RfPvmH.js?v=1791900000000"></script>
+  
+    <script>
+      (function() {
+        function syncHeaderHeight() {
+          var header = document.getElementById("sticky-header-container");
+          if (header) {
+            var h = header.offsetHeight;
+            if (h > 0) {
+              document.documentElement.style.setProperty("--app-header-height", h + "px");
+            }
+          }
+        }
+        window.addEventListener("resize", syncHeaderHeight, { passive: true });
+        window.addEventListener("scroll", syncHeaderHeight, { passive: true });
+        document.addEventListener("DOMContentLoaded", syncHeaderHeight);
+        var ro = window.ResizeObserver ? new ResizeObserver(syncHeaderHeight) : null;
+        var checkInterval = setInterval(function() {
+          var header = document.getElementById("sticky-header-container");
+          if (header) {
+            syncHeaderHeight();
+            if (ro) ro.observe(header);
+            clearInterval(checkInterval);
+          }
+        }, 100);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
